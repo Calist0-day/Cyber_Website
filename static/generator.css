@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 0;
+    color: #4CAF50;
+}
+
+.generator-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.generator-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.generator-form input[type="number"],
+.generator-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.checkbox-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.generate-button {
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+}
+
+.generate-button:hover {
+    background-color: #45a049;
+}
+
+.copy-button {
+    background-color: #007BFF;
+    color: white;
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.copy-button:hover {
+    background-color: #0056b3;
+}
+
+.copy-button i {
+    font-size: 20px;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.result label {
+    font-size: 14px;
+}
